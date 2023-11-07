@@ -1,0 +1,21 @@
+/* Conventionally you would place this at the beginning or in a different file.
+    Also notice, that the commenting code is different as it is a different language */
+h1 {
+    color: red;
+    font-size: 4rem;
+}
+@media (max-width: 600px) {
+    h1 {
+        color: green
+    }
+}
+
+h2 {
+    border: 2px solid blue;
+}
+
+table {}
+
+img {
+    width: 100%;
+}
